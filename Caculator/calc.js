@@ -88,11 +88,6 @@ function init(){
 }
 /*正负号*/
 function sign(n){
-   // if(n.indexOf("-")==-1){
-   // 	  n="-"+n;
-   // }else{
-   // 	  n=n.substr(1,n.length);
-   // }
    n=Number(n)*-1;
    return n;
 }
@@ -121,11 +116,6 @@ function isNull(n){
 }
 
 function isNumber(n){
-   // if(!isNaN(n)){
-   //   	return true;//参数n是数字
-   // }else{
-   // 	   return false;//参数n不是数字
-   // }
   return  !isNaN(n);
 }
 // isNaN：不能转换为数字：true，可以转换成数字是false
