@@ -1,0 +1,102 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+.header{
+	margin: 25px auto;
+	width: 1000px;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+li{
+	list-style: none;
+}
+
+.header .logo{
+	float: left;
+	position: relative;
+}
+
+.header .menu{
+	float: left;
+	position: relative;
+	margin-top: 12px;
+	margin-left: 16px;
+	background-color: white;
+}
+
+.header .menu .menu_title{
+	border-bottom: 1px solid black;
+	padding-bottom: 20px;
+	text-align: center;
+	width: 80px;
+	
+}
+
+.header .menu ul{
+	width: 80px;
+	position: absolute;
+	opacity: 0.5;
+	display: none;
+	background-color: white;
+}
+
+.header .menu ul li{
+	margin-top: 20px;
+	text-align: center;
+}
+
+.header .auth{
+	float: right;
+	position: relative;
+}
+
+.header .auth ul li{
+	float: left;
+	margin-left: 50px;
+}
+
+
+.content{
+	width: 1050px;
+	margin: 20px auto;
+}
+
+.banner-image{
+	width: 1000px;
+}
+
+.content>.goodsContent>ul>li{
+	width: 300px;
+	float: left;
+	margin:0 50px 50px 0;
+	/*设置边框等格式*/
+	margin-top:30px;
+	height: 500px;
+	box-shadow: 0px 0px 3px 3px #ccc;
+	-webkit-box-shadow: 0px 0px 3px 3px #ccc;/*谷歌浏览器*/
+	-moz-box-shadow: 0px 0px 3px 3px #ccc;/*火狐*/
+	background-color:#FFFFFF;
+}
+
+.content>.goodsContent>ul>li .goods-img{
+	width: 300px;
+}
+
+.goodsContent>ul>li>.goods-info>h3{
+	font-size: 25px;
+	color: red;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.goodsContent>ul>li>.goods-info>p{
+	line-height: 25px;
+	margin-bottom: 20px;
+}
+
