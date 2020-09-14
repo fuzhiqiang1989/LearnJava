@@ -100,3 +100,21 @@ li{
 	margin-bottom: 20px;
 }
 
+.goodsContent>ul>li>.goods-info>.img-btn{
+	width: 300px;
+}
+
+.goodsContent>ul>li>.goods-info>.img-btn>.price{
+	float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
