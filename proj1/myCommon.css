@@ -1,0 +1,168 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+.header{
+	margin: 25px auto;
+	width: 1000px;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+li{
+	list-style: none;
+}
+
+.header .logo{
+	float: left;
+	position: relative;
+}
+
+.header .menu{
+	float: left;
+	position: relative;
+	margin-top: 12px;
+	margin-left: 16px;
+	background-color: white;
+}
+
+.header .menu .menu_title{
+	border-bottom: 1px solid black;
+	padding-bottom: 20px;
+	text-align: center;
+	width: 80px;
+	
+}
+
+.header .menu ul{
+	width: 80px;
+	position: absolute;
+	opacity: 0.5;
+	display: none;
+	background-color: white;
+}
+
+.header .menu ul li{
+	margin-top: 20px;
+	text-align: center;
+}
+
+.header .auth{
+	float: right;
+	position: relative;
+}
+
+.header .auth ul li{
+	float: left;
+	margin-left: 50px;
+}
+
+
+.content{
+	width: 1050px;
+	margin: 20px auto;
+}
+
+.banner-image{
+	width: 1000px;
+}
+
+.content>.goodsContent>ul>li{
+	width: 300px;
+	float: left;
+	margin:0 50px 50px 0;
+	/*设置边框等格式*/
+	margin-top:30px;
+	height: 500px;
+	box-shadow: 0px 0px 3px 3px #ccc;
+	-webkit-box-shadow: 0px 0px 3px 3px #ccc;/*谷歌浏览器*/
+	-moz-box-shadow: 0px 0px 3px 3px #ccc;/*火狐*/
+	background-color:#FFFFFF;
+}
+
+.content>.goodsContent>ul>li .goods-img{
+	width: 300px;
+}
+
+.goodsContent>ul>li>.goods-info>h3{
+	font-size: 25px;
+	color: red;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.goodsContent>ul>li>.goods-info>p{
+	line-height: 25px;
+	margin-bottom: 20px;
+}
+
+.goodsContent>ul>li>.goods-info>.img-btn{
+	width: 300px;
+}
+
+.goodsContent>ul>li>.goods-info>.img-btn>.price{
+	float: left;
+}
+
+.goodsContent>ul>li>.goods-info>.img-btn>.btn{
+	width: 60px;
+	height: 30px;
+	background-color: red;
+	float: right;
+	text-align: center;
+	border-radius: 5px;
+	margin-right: 10px;
+
+}
+
+.goodsContent>ul>li>.goods-info>.img-btn>.btn>.cart>img{
+	width: 25px;
+	height: 20px;
+	margin-top: 5px;
+}
+
+
+.page-nav{
+	width: 100%;
+	height: 60px;
+	overflow: hidden;
+}
+
+
+.page-nav ul{
+	margin:auto;
+	overflow: hidden;
+	width: 500px;
+}
+
+
+.page-nav ul li{
+	float: left;
+	margin-right:20px;
+	list-style: none;
+}
+
+
+
+.footer{
+	width: 1000px;
+	height:100px;
+	margin:60px auto;
+	border-top:1px solid #ccc;
+	overflow: hidden;
+}
+
+.footer p{
+   text-align: center;
+   line-height: 80px;
+}
+
+.footer p span{
+	color: #ff1493;
+}
+
+
